@@ -5,6 +5,9 @@ body {
 	color: rgb(var(--light));
 }
 
+h4 {
+	padding-left: 30px;
+}
 .about-me {
 	display: flex;
 	flex-direction: column;
@@ -122,6 +125,9 @@ body {
 }
 
 section {
+	display: flex;
+	justify-content: space-around;
+	/* align-items: center; */
 	height: 2000px;
 	margin: 0;
 	padding: 0;
@@ -141,4 +147,32 @@ section {
 }
 .main-container::-webkit-scrollbar {
 	display: none;
+}
+
+.project-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 20vw;
+	height: 20vw;
+	text-align: center;
+	background-color: rgba(var(--black), 0.478);
+	padding: 1vw;
+	border-radius: 3%;
+	margin-top: 500px;
+}
+
+section a {
+	text-decoration: none;
+	color: rgb(var(--light));
+}
+
+section a:hover {
+	color: rgb(var(--tertiary));
+}
+
+.project-card i {
+	background-color: rgb(var(--primary));
+	border-radius: 50%;
 }
