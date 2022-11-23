@@ -1,0 +1,114 @@
+:root {
+	--black: 0, 0, 0;
+	--gray: 211, 211, 211;
+	--light: 255, 255, 255;
+	--primary: 23, 6, 116;
+}
+
+html,
+body {
+	height: 100%;
+	font-family: "Source Code Pro", monospace;
+	color: rgb(var(--light));
+}
+
+.about-me {
+	display: flex;
+	flex-direction: column;
+	padding: 50px;
+	margin: 70px;
+	width: 32vw;
+	box-shadow: inset 0 0 0 2000px rgba(var(--black), 0.478);
+}
+
+.cont-div {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: rgb(var(--black));
+	height: 10vh;
+	/* color: rgb(var(--light)); */
+}
+
+.main-nav h1 {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	font-size: 32px;
+	font-weight: 400;
+	padding-left: 20px;
+	margin-right: auto;
+}
+
+.main-nav ul {
+	display: flex;
+	height: inherit;
+	padding-inline-start: 0;
+}
+.main-nav li {
+	display: flex;
+	width: 100px;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+}
+
+.main-nav li a {
+	color: rgb(var(--light));
+}
+
+.main-nav li a:hover {
+	color: rgb(var(--gray));
+	font-size: 110%;
+	text-decoration: none;
+}
+
+.nav-links {
+	flex: 1;
+	justify-content: center;
+}
+
+.social-buttons {
+	flex: 1;
+	margin-left: auto;
+	justify-content: flex-end;
+}
+
+.main-div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-image: url("images/riverLandscape.JPG");
+	background-size: cover;
+	box-shadow: inset 0 0 0 2000px rgba(var(--primary), 0.3);
+}
+.row {
+	height: 100%;
+}
+
+.image-wrapper {
+	border-radius: 50%;
+	box-shadow: 3px 3px 2px rgb(var(--black));
+	border: 2px solid rgb(var(--light));
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+#thumbnail {
+	display: inline;
+	margin: 0 auto;
+	width: auto;
+	height: 640px;
+}
