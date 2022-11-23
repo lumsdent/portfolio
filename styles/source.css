@@ -23,7 +23,7 @@ body {
 .main-nav {
 	display: flex;
 	justify-content: space-between;
-	background-color: rgb(var(--secondary));
+	background-color: rgb(var(--primary));
 	height: 10vh;
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .main-nav li a:hover {
-	color: rgb(var(--gray));
+	color: rgb(var(--tertiary));
 	font-size: 110%;
 	text-decoration: none;
 }
@@ -82,7 +82,7 @@ body {
 	padding: 0;
 	background-image: url("../images/riverLandscape.JPG");
 	background-size: cover;
-	box-shadow: inset 0 0 0 2000px rgba(var(--primary), 0.3);
+	box-shadow: inset 0 0 0 2000px rgba(var(--secondary), 0.3);
 }
 .row {
 	height: 100%;
@@ -92,7 +92,7 @@ body {
 	transform: translateY(-15vh) translateX(-25%) rotate(-8deg);
 	width: 200%;
 	height: 50vh;
-	background-color: rgba(var(--secondary), 0.95);
+	background-color: rgba(var(--primary), 0.95);
 	position: absolute;
 }
 
@@ -127,7 +127,7 @@ section {
 	padding: 0;
 	background-image: url("../images/lakeLandscape.JPG");
 	background-size: cover;
-	box-shadow: inset 0 0 0 2000px rgba(var(--primary), 0.3);
+	box-shadow: inset 0 0 0 2000px rgba(var(--secondary), 0.3);
 }
 
 .main-container {
@@ -136,9 +136,9 @@ section {
 }
 
 .main-container {
-	-ms-overflow-style: none; /* Internet Explorer 10+ */
-	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 .main-container::-webkit-scrollbar {
-	display: none; /* Safari and Chrome */
+	display: none;
 }

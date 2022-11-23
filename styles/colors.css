@@ -1,10 +1,8 @@
 :root {
 	--black: 0, 0, 0;
-	--gray: 211, 211, 211;
-	--light: 138, 162, 158; /* Morning Blue */
-	--primary: 25, 123, 189; /*Star Command Blue*/
-	--secondary: 45, 45, 42; /*Jet*/
-
-	/*Original Color was Navy Blue (23, 6, 116)*/
+	--tertiary: 168, 218, 220;
+	--light: 241, 250, 238;
+	--secondary: 69, 123, 157;
+	--primary: 29, 53, 87;
+	--warning: 230, 57, 70;
 }
-1d3557
