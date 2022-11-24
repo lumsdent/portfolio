@@ -1,4 +1,7 @@
-html,
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	height: 100%;
 	font-family: "Source Code Pro", monospace;
@@ -172,4 +175,31 @@ section a:hover {
 .project-card i {
 	background-color: rgb(var(--primary));
 	border-radius: 50%;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+footer div {
+	height: 10vh;
+	padding: 1vh;
+}
+footer a {
+	color: rgb(var(--light));
+}
+footer a:hover {
+	color: rgb(var(--tertiary));
+	text-decoration: none;
+	font-size: 110%;
+}
+
+footer p {
+	font-size: 12px;
+	border-top: 1px solid rgba(var(--secondary), 0.3);
+	padding: 3px;
 }
