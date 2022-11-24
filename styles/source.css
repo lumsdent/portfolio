@@ -3,6 +3,7 @@ body {
 	height: 100%;
 	font-family: "Source Code Pro", monospace;
 	color: rgb(var(--light));
+	background-color: rgb(var(--primary));
 }
 
 h4 {
@@ -80,30 +81,26 @@ h4 {
 	justify-content: center;
 	align-items: center;
 	flex-direction: row;
-	height: 100%;
+	height: 100vh;
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/riverLandscape.JPG");
 	background-size: cover;
 	box-shadow: inset 0 0 0 2000px rgba(var(--secondary), 0.3);
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
 }
 .row {
 	height: 100%;
 }
 
 .triangle {
-	transform: translateY(-15vh) translateX(-25%) rotate(-8deg);
-	width: 200%;
-	height: 50vh;
 	background-color: rgba(var(--primary), 0.95);
-	position: absolute;
 }
 
 .featured-header {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	rotate: 10deg;
 	height: inherit;
 }
 
@@ -127,13 +124,13 @@ h4 {
 section {
 	display: flex;
 	justify-content: space-around;
-	/* align-items: center; */
-	height: 2000px;
+	height: 100vh;
 	margin: 0;
 	padding: 0;
 	background-image: url("../images/lakeLandscape.JPG");
 	background-size: cover;
 	box-shadow: inset 0 0 0 2000px rgba(var(--secondary), 0.3);
+	clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .main-container {
@@ -160,7 +157,7 @@ section {
 	background-color: rgba(var(--black), 0.478);
 	padding: 1vw;
 	border-radius: 3%;
-	margin-top: 500px;
+	margin-top: 50%;
 }
 
 section a {
